@@ -1,0 +1,62 @@
+/* RestaurantList.css */
+
+/* Container Styles */
+.restaurant-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f8f9fa;
+}
+
+/* Title Styles */
+.restaurant-list-title {
+    font-size: 36px;
+    color: #ff5733;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Restaurant Card Styles */
+.restaurant-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+/* Restaurant Name Styles */
+.restaurant-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5733;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Restaurant Address Styles */
+.restaurant-address {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+}
+
+/* View Details Link Styles */
+.view-details-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+.view-details-link:hover {
+    color: #0056b3;
+}
